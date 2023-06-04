@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="features-algo">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-algo-api/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-algo/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-graph-api/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-graph/0.19.3/xml/features</repository>
+    <feature name="features-algo" description="features-algo" version="0.19.3">
+        <details>features-algo</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-algo-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-algo</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-graph-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-graph</feature>
+    </feature>
+</features>
