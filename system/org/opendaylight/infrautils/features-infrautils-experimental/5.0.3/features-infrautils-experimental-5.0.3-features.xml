@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="features-infrautils-experimental">
+    <repository>mvn:org.opendaylight.infrautils/features-infrautils/5.0.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/odl-infrautils-inject/5.0.3/xml/features</repository>
+    <feature name="features-infrautils-experimental" description="ODL :: infrautils :: features-infrautils-experimental" version="5.0.3">
+        <details>YANG Tools Experimental Features</details>
+        <feature version="5.0.3" prerequisite="false" dependency="false">features-infrautils</feature>
+        <feature version="5.0.3" prerequisite="false" dependency="false">odl-infrautils-inject</feature>
+    </feature>
+</features>

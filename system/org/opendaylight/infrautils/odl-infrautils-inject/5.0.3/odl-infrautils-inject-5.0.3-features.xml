@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-infrautils-inject">
+    <feature name="odl-infrautils-inject" description="OpenDaylight :: Infrautils :: @Inject" version="5.0.3">
+        <details>odl-infrautils-inject</details>
+        <bundle>mvn:org.opendaylight.infrautils/inject/5.0.3</bundle>
+    </feature>
+</features>
