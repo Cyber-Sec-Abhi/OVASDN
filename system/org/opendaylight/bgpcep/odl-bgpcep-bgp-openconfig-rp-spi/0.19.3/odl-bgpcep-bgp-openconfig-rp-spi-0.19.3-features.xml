@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-bgp-openconfig-rp-spi">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-inet/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-openconfig-rp-spi" description="OpenDaylight :: BGP :: Openconfig Routing Policy Spi" version="0.19.3">
+        <details>odl-bgpcep-bgp-openconfig-rp-spi</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp-inet</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-openconfig-rp-spi/0.19.3</bundle>
+    </feature>
+</features>

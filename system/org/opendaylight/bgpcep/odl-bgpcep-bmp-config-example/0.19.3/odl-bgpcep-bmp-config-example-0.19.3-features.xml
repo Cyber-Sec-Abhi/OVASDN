@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-0.19.3">
+    <feature name="odl-bgpcep-bmp-config-example" description="OpenDaylight :: BMP :: Config files example" version="0.19.3">
+        <details>odl-bgpcep-bmp-config-example</details>
+        <configfile finalname="etc/opendaylight/bgpcep/odl-bmp-monitors-config.xml">mvn:org.opendaylight.bgpcep/bgp-bmp-config-example/0.19.3/xml/odl-bmp-monitors-config</configfile>
+    </feature>
+</features>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-bgp-parser">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-parser-api/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-parser" description="OpenDaylight :: BGP :: Parser" version="0.19.3">
+        <details>odl-bgpcep-bgp-parser</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp-parser-api</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-parser-impl/0.19.3</bundle>
+    </feature>
+</features>

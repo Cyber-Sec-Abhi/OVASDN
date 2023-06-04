@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-bgp-route-target">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-openconfig-rp-spi/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-route-target" description="OpenDaylight :: BGP :: Route Target Constrains" version="0.19.3">
+        <details>odl-bgpcep-bgp-route-target</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp-openconfig-rp-spi</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-route-target/0.19.3</bundle>
+    </feature>
+</features>
