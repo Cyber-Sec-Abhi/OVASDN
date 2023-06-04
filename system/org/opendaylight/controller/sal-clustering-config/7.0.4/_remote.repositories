@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Mar 31 00:36:49 UTC 2023
+sal-clustering-config-7.0.4-factoryakkaconf.xml>=
+sal-clustering-config-7.0.4-moduleconf.xml>=
+sal-clustering-config-7.0.4-akkaconf.xml>=
+sal-clustering-config-7.0.4-moduleshardconf.xml>=
+sal-clustering-config-7.0.4-datastore.cfg>=
