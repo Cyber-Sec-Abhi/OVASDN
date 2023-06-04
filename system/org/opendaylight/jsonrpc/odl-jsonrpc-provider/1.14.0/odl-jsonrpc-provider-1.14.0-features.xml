@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-jsonrpc-provider-1.14.0">
+    <repository>mvn:org.opendaylight.mdsal/odl-mdsal-binding-dom-adapter/11.0.7/xml/features</repository>
+    <repository>mvn:org.opendaylight.jsonrpc/odl-jsonrpc-bus/1.14.0/xml/features</repository>
+    <feature name="odl-jsonrpc-provider" description="JSON-RPC :: Feature :: provider" version="1.14.0">
+        <details>odl-jsonrpc-provider</details>
+        <feature version="[11,12)">odl-mdsal-binding-dom-adapter</feature>
+        <feature version="1.14.0" prerequisite="false" dependency="false">odl-jsonrpc-bus</feature>
+        <bundle>mvn:org.opendaylight.jsonrpc/jsonrpc-provider-single/1.14.0</bundle>
+        <bundle>mvn:org.opendaylight.jsonrpc/jsonrpc-provider-common/1.14.0</bundle>
+        <bundle>mvn:org.opendaylight.jsonrpc/dom-codec/1.14.0</bundle>
+    </feature>
+</features>
