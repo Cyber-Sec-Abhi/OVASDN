@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-bgp-dependencies-0.19.3">
+    <repository>mvn:org.opendaylight.yangtools/odl-yangtools-data-api/10.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-extras-dependencies/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-dependencies" description="OpenDaylight :: BGP :: Dependencies" version="0.19.3">
+        <details>odl-bgpcep-bgp-dependencies</details>
+        <feature version="[10,11)">odl-yangtools-data-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-extras-dependencies</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-concepts/0.19.3</bundle>
+    </feature>
+</features>

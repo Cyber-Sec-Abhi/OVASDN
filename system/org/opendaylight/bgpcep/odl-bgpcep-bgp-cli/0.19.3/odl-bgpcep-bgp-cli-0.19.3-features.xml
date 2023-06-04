@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-bgp-cli">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-openconfig/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp-dependencies/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-bgp-cli" description="OpenDaylight :: BGP :: Cli" version="0.19.3">
+        <details>odl-bgpcep-bgp-cli</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp-openconfig</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp-dependencies</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/bgp-cli/0.19.3</bundle>
+        <bundle>mvn:org.opendaylight.mdsal/mdsal-binding-api/11.0.7</bundle>
+    </feature>
+</features>

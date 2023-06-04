@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-0.19.3">
+    <feature name="odl-bgpcep-bgp-config-example" description="OpenDaylight :: Configuration Example Files" version="0.19.3">
+        <details>odl-bgpcep-bgp-config-example</details>
+        <configfile finalname="etc/opendaylight/bgpcep/protocols-config.xml">mvn:org.opendaylight.bgpcep/bgp-config-example/0.19.3/xml/bgp-initial-config</configfile>
+        <configfile finalname="etc/opendaylight/bgpcep/network-topology-bgp-config.xml">mvn:org.opendaylight.bgpcep/bgp-config-example/0.19.3/xml/network-topology-bgp-initial-config</configfile>
+    </feature>
+</features>
