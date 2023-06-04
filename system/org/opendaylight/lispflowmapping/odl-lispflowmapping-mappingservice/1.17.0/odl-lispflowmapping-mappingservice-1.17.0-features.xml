@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-lispflowmapping-mappingservice">
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-models/1.17.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-inmemorydb/1.17.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-southbound/1.17.0/xml/features</repository>
+    <feature name="odl-lispflowmapping-mappingservice" description="ODL :: lispflowmapping :: odl-lispflowmapping-mappingservice" version="1.17.0">
+        <details>odl-lispflowmapping-mappingservice</details>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature version="1.17.0" prerequisite="false" dependency="false">odl-lispflowmapping-models</feature>
+        <feature version="1.17.0" prerequisite="false" dependency="false">odl-lispflowmapping-inmemorydb</feature>
+        <feature version="1.17.0" prerequisite="false" dependency="false">odl-lispflowmapping-southbound</feature>
+        <bundle>mvn:org.opendaylight.lispflowmapping/mappingservice.implementation/1.17.0</bundle>
+    </feature>
+</features>
