@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-integration-all">
+    <repository>mvn:org.opendaylight.integration/odl-integration-compatible-with-all/0.18.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-callhome-ssh/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-console/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-mdsal/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-topology/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-netconf-clustered-topology/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.serviceutils/odl-serviceutils-srm/0.11.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.serviceutils/odl-serviceutils-tools/0.11.0/xml/features</repository>
+    <feature name="odl-integration-all" description="ODL :: integration :: odl-integration-all" version="0.18.0">
+        <details>Single feature containing all features separately compatible with odl-integration-compatible-with-all.</details>
+        <feature version="0.18.0" prerequisite="false" dependency="false">odl-integration-compatible-with-all</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-netconf-callhome-ssh</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-netconf-console</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-netconf-mdsal</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-netconf-topology</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-netconf-clustered-topology</feature>
+        <feature version="0.11.0" prerequisite="false" dependency="false">odl-serviceutils-srm</feature>
+        <feature version="0.11.0" prerequisite="false" dependency="false">odl-serviceutils-tools</feature>
+    </feature>
+</features>

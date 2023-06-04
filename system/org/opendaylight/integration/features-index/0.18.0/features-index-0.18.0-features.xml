@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="features-index">
+    <repository>mvn:org.opendaylight.aaa/features-aaa/0.17.7/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-algo/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-bgp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-bgpcep-extras/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-bmp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-graph/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-pcep/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/features-rsvp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/features-controller/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/features-controller-experimental/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/features-controller-testing/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.daexim/daexim-features/1.13.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/features-infrautils/5.0.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.infrautils/features-infrautils-experimental/5.0.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.jsonrpc/features-jsonrpc/1.14.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/1.17.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.mdsal/features-mdsal/11.0.7/xml/features</repository>
+    <repository>mvn:org.opendaylight.mdsal/features-mdsal-experimental/11.0.7/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/features-netconf/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/features-netconf-connector/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/features-restconf/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/features-yanglib/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.odlparent/features-odlparent/12.0.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin/0.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-extension/0.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/library-features/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/southbound-features/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.serviceutils/serviceutils-features/0.11.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce.models/features-transportpce-models/18.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/features-transportpce/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.yangtools/features-yangtools/10.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.yangtools/features-yangtools-experimental/10.0.4/xml/features</repository>
+    <feature name="features-index" description="ODL :: integration :: features-index" version="0.18.0">
+        <details>Aggregate repository of all ODL repositories with user-facing features.</details>
+        <feature version="0.17.7" prerequisite="false" dependency="false">features-aaa</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-algo</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-bgp</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-bgpcep-extras</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-bmp</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-graph</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-pcep</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">features-rsvp</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">features-controller</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">features-controller-experimental</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">features-controller-testing</feature>
+        <feature version="1.13.0" prerequisite="false" dependency="false">daexim-features</feature>
+        <feature version="5.0.3" prerequisite="false" dependency="false">features-infrautils</feature>
+        <feature version="5.0.3" prerequisite="false" dependency="false">features-infrautils-experimental</feature>
+        <feature version="1.14.0" prerequisite="false" dependency="false">features-jsonrpc</feature>
+        <feature version="1.17.0" prerequisite="false" dependency="false">features-lispflowmapping</feature>
+        <feature version="11.0.7" prerequisite="false" dependency="false">features-mdsal</feature>
+        <feature version="11.0.7" prerequisite="false" dependency="false">features-mdsal-experimental</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">features-netconf</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">features-netconf-connector</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">features-restconf</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">features-yanglib</feature>
+        <feature version="12.0.3" prerequisite="false" dependency="false">features-odlparent</feature>
+        <feature version="0.16.0" prerequisite="false" dependency="false">features-openflowplugin</feature>
+        <feature version="0.16.0" prerequisite="false" dependency="false">features-openflowplugin-extension</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">library-features</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">hwvtepsouthbound-features</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">southbound-features</feature>
+        <feature version="0.11.0" prerequisite="false" dependency="false">serviceutils-features</feature>
+        <feature version="18.0.1" prerequisite="false" dependency="false">features-transportpce-models</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">features-transportpce</feature>
+        <feature version="10.0.4" prerequisite="false" dependency="false">features-yangtools</feature>
+        <feature version="10.0.4" prerequisite="false" dependency="false">features-yangtools-experimental</feature>
+    </feature>
+</features>

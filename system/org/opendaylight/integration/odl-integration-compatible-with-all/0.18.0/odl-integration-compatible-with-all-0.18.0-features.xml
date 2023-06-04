@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-integration-compatible-with-all">
+    <repository>mvn:org.opendaylight.aaa/odl-aaa-shiro/0.17.7/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bgp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-bmp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-rsvp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.daexim/odl-daexim-all/1.13.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.jsonrpc/odl-jsonrpc-all/1.14.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.lispflowmapping/odl-lispflowmapping-msmr/1.17.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-mdsal-apidocs/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-restconf/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.netconf/odl-yanglib/5.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-flow-services-rest/0.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.openflowplugin/odl-openflowplugin-nxm-extensions/0.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-library/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-hwvtepsouthbound/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/odl-ovsdb-southbound-impl/1.16.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/odl-transportpce/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/odl-transportpce-tapi/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/odl-transportpce-inventory/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/odl-transportpce-nbinotifications/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce/odl-transportpce-dmaap-client/7.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce.models/odl-openroadm-devices/18.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce.models/odl-openroadm-models/18.0.1/xml/features</repository>
+    <repository>mvn:org.opendaylight.transportpce.models/odl-tapi-2.1.1-models/18.0.1/xml/features</repository>
+    <feature name="odl-integration-compatible-with-all" description="ODL :: integration :: odl-integration-compatible-with-all" version="0.18.0">
+        <details>Single feature containing all features compatible together.</details>
+        <feature version="0.17.7" prerequisite="false" dependency="false">odl-aaa-shiro</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bgp</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-bmp</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-rsvp</feature>
+        <feature version="1.13.0" prerequisite="false" dependency="false">odl-daexim-all</feature>
+        <feature version="1.14.0" prerequisite="false" dependency="false">odl-jsonrpc-all</feature>
+        <feature version="1.17.0" prerequisite="false" dependency="false">odl-lispflowmapping-msmr</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-mdsal-apidocs</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-restconf</feature>
+        <feature version="5.0.4" prerequisite="false" dependency="false">odl-yanglib</feature>
+        <feature version="0.16.0" prerequisite="false" dependency="false">odl-openflowplugin-flow-services-rest</feature>
+        <feature version="0.16.0" prerequisite="false" dependency="false">odl-openflowplugin-nxm-extensions</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">odl-ovsdb-library</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">odl-ovsdb-hwvtepsouthbound</feature>
+        <feature version="1.16.0" prerequisite="false" dependency="false">odl-ovsdb-southbound-impl</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">odl-transportpce</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">odl-transportpce-tapi</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">odl-transportpce-inventory</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">odl-transportpce-nbinotifications</feature>
+        <feature version="7.0.1" prerequisite="false" dependency="false">odl-transportpce-dmaap-client</feature>
+        <feature version="18.0.1" prerequisite="false" dependency="false">odl-openroadm-devices</feature>
+        <feature version="18.0.1" prerequisite="false" dependency="false">odl-openroadm-models</feature>
+        <feature version="18.0.1" prerequisite="false" dependency="false">odl-tapi-2.1.1-models</feature>
+    </feature>
+</features>
