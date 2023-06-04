@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="features-controller">
+    <repository>mvn:org.opendaylight.controller/odl-controller-akka/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-controller-scala/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-controller-broker-local/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-clustering-commons/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-controller-mdsal-common/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-distributed-datastore/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-remoterpc-connector/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-controller-blueprint/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/odl-jolokia/7.0.4/xml/features</repository>
+    <feature name="features-controller" description="OpenDaylight :: Controller :: Features" version="7.0.4">
+        <details>Controller Production Features</details>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-controller-akka</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-controller-scala</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-mdsal-broker</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-controller-broker-local</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-mdsal-clustering-commons</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-controller-mdsal-common</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-mdsal-distributed-datastore</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-mdsal-remoterpc-connector</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-controller-blueprint</feature>
+        <feature version="7.0.4" prerequisite="false" dependency="false">odl-jolokia</feature>
+    </feature>
+</features>
