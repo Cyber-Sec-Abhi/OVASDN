@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-0.19.3">
+    <feature name="odl-bgpcep-pcep-config-example" description="OpenDaylight :: Pcep Configuration Example Files" version="0.19.3">
+        <details>odl-bgpcep-pcep-config-example</details>
+        <configfile finalname="etc/opendaylight/bgpcep/network-topology-pcep-config.xml">mvn:org.opendaylight.bgpcep/pcep-config-example/0.19.3/xml/network-topology-pcep-initial-config</configfile>
+    </feature>
+</features>

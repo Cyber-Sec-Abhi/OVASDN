@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-pcep-segment-routing">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-stateful/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-segment-routing" description="OpenDaylight :: PCEP :: Segment Routing" version="0.19.3">
+        <details>odl-bgpcep-pcep-segment-routing</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-stateful</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-segment-routing/0.19.3</bundle>
+    </feature>
+</features>

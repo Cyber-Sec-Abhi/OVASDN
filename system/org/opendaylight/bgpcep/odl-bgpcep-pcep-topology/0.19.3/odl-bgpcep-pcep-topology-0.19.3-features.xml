@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-pcep-topology">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-programming-api/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-api/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-topology" description="OpenDaylight :: PCEP :: Topology" version="0.19.3">
+        <details>odl-bgpcep-pcep-topology</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-programming-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-api</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-tunnel-api/0.19.3</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-topology-api/0.19.3</bundle>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-topology-spi/0.19.3</bundle>
+    </feature>
+</features>

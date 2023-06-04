@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-pcep-base-parser">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-api/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-base-parser" description="OpenDaylight :: PCEP :: Base Parser" version="0.19.3">
+        <details>odl-bgpcep-pcep-base-parser</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-api</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-base-parser/0.19.3</bundle>
+    </feature>
+</features>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-pcep">
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-extras-dependencies/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-api/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-impl/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-programming-api/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-programming-impl/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-topology/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-stateful/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-p2mp-te-lsp/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-topology-provider/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-tunnel-provider/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-segment-routing/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-auto-bandwidth/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-topology-config-loader/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-config-example/0.19.3/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-cli/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-pcep" description="OpenDaylight :: PCEP" version="0.19.3">
+        <details>odl-bgpcep-pcep</details>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-extras-dependencies</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-impl</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-programming-api</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-programming-impl</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-topology</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-stateful</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-p2mp-te-lsp</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-topology-provider</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-tunnel-provider</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-segment-routing</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-auto-bandwidth</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-topology-config-loader</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-config-example</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-cli</feature>
+    </feature>
+</features>

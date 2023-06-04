@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-config-loader-impl-0.19.3">
+    <repository>mvn:org.opendaylight.yangtools/odl-yangtools-codec/10.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-config-loader-spi/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-config-loader-impl" description="OpenDaylight :: BGPCEP :: Config Loader Impl" version="0.19.3">
+        <details>odl-bgpcep-config-loader-impl</details>
+        <feature version="[10,11)">odl-yangtools-codec</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-config-loader-spi</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/config-loader-impl/0.19.3</bundle>
+    </feature>
+</features>

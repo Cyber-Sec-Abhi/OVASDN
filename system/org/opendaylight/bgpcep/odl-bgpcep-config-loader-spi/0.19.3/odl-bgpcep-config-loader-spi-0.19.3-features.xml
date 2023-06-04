@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-config-loader-spi-0.19.3">
+    <repository>mvn:org.opendaylight.mdsal/odl-mdsal-binding-runtime/11.0.7/xml/features</repository>
+    <feature name="odl-bgpcep-config-loader-spi" description="OpenDaylight :: BGPCEP :: SPI Config Loader" version="0.19.3">
+        <details>odl-bgpcep-config-loader-spi</details>
+        <feature version="[11,12)">odl-mdsal-binding-runtime</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/config-loader-spi/0.19.3</bundle>
+    </feature>
+</features>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="odl-bgpcep-pcep-p2mp-te-lsp-0.19.3">
+    <repository>mvn:org.opendaylight.controller/odl-mdsal-broker/7.0.4/xml/features</repository>
+    <repository>mvn:org.opendaylight.bgpcep/odl-bgpcep-pcep-api/0.19.3/xml/features</repository>
+    <feature name="odl-bgpcep-pcep-p2mp-te-lsp" description="OpenDaylight :: PCEP :: P2MP TE LSP" version="0.19.3">
+        <details>odl-bgpcep-pcep-p2mp-te-lsp</details>
+        <feature version="[7,8)">odl-mdsal-broker</feature>
+        <feature version="0.19.3" prerequisite="false" dependency="false">odl-bgpcep-pcep-api</feature>
+        <bundle>mvn:org.opendaylight.bgpcep/pcep-ietf-p2mp-te-lsp/0.19.3</bundle>
+    </feature>
+</features>
