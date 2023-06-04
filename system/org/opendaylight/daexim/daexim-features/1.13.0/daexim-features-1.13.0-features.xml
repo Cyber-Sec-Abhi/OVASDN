@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="daexim-features">
+    <repository>mvn:org.opendaylight.daexim/odl-daexim/1.13.0/xml/features</repository>
+    <repository>mvn:org.opendaylight.daexim/odl-daexim-all/1.13.0/xml/features</repository>
+    <feature name="daexim-features" description="ODL :: daexim :: daexim-features" version="1.13.0">
+        <details>daexim-features</details>
+        <feature version="1.13.0" prerequisite="false" dependency="false">odl-daexim</feature>
+        <feature version="1.13.0" prerequisite="false" dependency="false">odl-daexim-all</feature>
+    </feature>
+</features>
